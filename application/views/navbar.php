@@ -30,7 +30,7 @@
                 <a class="nav-link" href="#">Login</a>
             </li>
             <li class="nav-item">
-                <a class="btn btn_orange text-white" style="background-color: chocolate;" href="#">Daftar</a>
+                <a class="btn btn_orange text-white" style="background-color: chocolate;" href="<?= site_url('Daftar') ?>">Daftar</a>
             </li>
         </ul>
     </div>
