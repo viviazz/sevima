@@ -24,7 +24,7 @@
                 <a class="nav-link" href="<?= site_url('DataCovid') ?>">Data Covid-19</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">RS Rujukan</a>
+                <a class="nav-link" href="<?= site_url('RSRujukan') ?>">RS Rujukan</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Login</a>
