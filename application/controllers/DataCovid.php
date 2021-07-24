@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Home extends CI_Controller
+class DataCovid extends CI_Controller
 {
 
     /**
@@ -21,7 +21,14 @@ class Home extends CI_Controller
      */
     public function index()
     {
-        //Ambil API 
-        $this->load->view('home');
+        // $this->load->view('home');
+
+        $readAPIIndonesia = file_get_contents("https://api.kawalcorona.com/indonesia");
+        $data['indonesia'] = json_decode($readAPIIndonesia, true);
+
+        $readAPIProvinsi = file_get_contents("https://api.kawalcorona.com/indonesia/provinsi");
+        $data['provinsi'] = json_decode($readAPIProvinsi, true);
+
+        $this->load->view('DataCovid', $data);
     }
 }
