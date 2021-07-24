@@ -1,7 +1,7 @@
 <!--FOOTER-->
 
 <!--Copyright-->
-<div class="bg-dark text-white">
+<div class="bg-dark text-white fixed-bottom">
     <br>
     <footer align="center">
         © 2021 Copyright CeKopit Ver 1.0.0 <br> <br>

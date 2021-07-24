@@ -27,7 +27,7 @@
                 <a class="nav-link" href="<?= site_url('RSRujukan') ?>">RS Rujukan</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Login</a>
+                <a class="nav-link" href="<?= site_url('Login') ?>">Login</a>
             </li>
             <li class="nav-item">
                 <a class="btn btn_orange text-white" style="background-color: chocolate;" href="<?= site_url('Daftar') ?>">Daftar</a>
